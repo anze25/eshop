@@ -1,62 +1,71 @@
-🚀 Laravel E-commerce Website
-Welcome to this fully functional e-commerce platform built with the Laravel framework. This project includes a comprehensive set of features for both customers and administrators, providing a complete online shopping experience from product browsing to order management.
+# 🚀 Laravel E-commerce Website
 
-✨ Key Features
-Customer Frontend: A beautiful and responsive storefront for customers to browse products, add items to their cart, and complete checkout.
+Welcome to this fully functional e-commerce platform built with the **Laravel** framework. This project includes a comprehensive set of features for both customers and administrators, providing a complete online shopping experience—from product browsing to order management.
 
-User Authentication: Secure registration and login for both customers and administrators.
+---
 
-Admin Panel: A powerful dashboard for administrators to manage products, view orders, and oversee user accounts.
+## ✨ Key Features
 
-Shopping Cart: Persistent shopping cart functionality.
+- **Customer Frontend**: Beautiful and responsive storefront for browsing products, adding items to cart, and completing checkout.
+- **User Authentication**: Secure registration and login for both customers and administrators.
+- **Admin Panel**: Powerful dashboard for managing products, viewing orders, and overseeing user accounts.
+- **Shopping Cart**: Persistent cart functionality for a seamless shopping experience.
+- **Database Seeding**: Pre-populated with sample data for immediate testing.
 
-Database Seeding: Pre-populated with sample data for immediate testing.
+---
+
+## 📸 Screenshot
 
 ![Screenshot](https://github.com/anze25/eshop/blob/e1d1a64ba4aeab91654d74c9bb5ff3c12ef8e19a/Screenshot.jpg)
 
-🌐 Live Demo
-You can view a live demo of the application here:
-eshop.as-storitve.si
+---
 
-🔑 Login Credentials
-Use the following credentials to explore the different roles within the application.
+## 🌐 Live Demo
 
-User Account
-Email: user@gmail.com
+Check out the live demo here:  
+🔗 [eshop.as-storitve.si](http://eshop.as-storitve.si)
 
-Password: password
+---
 
-Administrator Account
-Email: admin@gmail.com
+## 🔑 Login Credentials
 
-Password: password
+Explore the app using these demo accounts:
 
-🛠️ Installation Guide
-Follow these steps to get the project up and running on your local machine.
+### 👤 User Account
+- **Email**: `user@gmail.com`  
+- **Password**: `password`
 
-## 1. Clone the Repository
-First, clone this repository to your local machine using Git.
+### 🛡️ Administrator Account
+- **Email**: `admin@gmail.com`  
+- **Password**: `password`
 
-git clone https://github.com/anze25/eshop.git
-cd eshop
+---
 
-## 2. Install Dependencies
-Install the required PHP dependencies using Composer.
+## 🛠️ Installation Guide
 
+Follow these steps to set up the project locally:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
+
+```
+### 2. Install PHP Dependencies
+```bash
 composer install
 
-## 3. Create Environment File
-Copy the .env.example file to create your local environment configuration.
-
+### 3. Create Environment File
+```bash
 cp .env.example .env
-
-## 4. Generate Application Key
-Generate a unique application key.
-
+```
+### 4. Generate Application Key
+```bash
 php artisan key:generate
-
-## 5. Configure Your .env File
-Open the .env file and update your database credentials. This is a mandatory step.
+```
+### 5. Configure .env File
+```Env
+Update your database credentials:
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -64,45 +73,35 @@ DB_PORT=3306
 DB_DATABASE=your_database_name
 DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
-
-Remember to also configure your mail driver and other settings as needed.
-
-## 6. Run Migrations & Seed the Database
-Execute the database migrations and seeders to create the schema and populate it with initial data.
-
-php artisan migrate --seed
-
-Alternatively, you can run them separately:
-
-# Run migrations first
+```
+### 6. Run Migrations & Seed Database
+```bash
 php artisan migrate
-
-# Then run the seeders
 php artisan db:seed
-
-## 7. Install Frontend Dependencies
-Install the necessary Node.js dependencies.
-
+```
+### 7. Install Frontend Dependencies
+```bash
 npm install
-
-## 8. Compile Frontend Assets
-Compile the JavaScript and CSS assets.
-
+```
+### 8. Compile Frontend Assets
+```bash
 npm run dev
-
-## 9. Serve the Application
-Finally, start the local development server.
-
+```
+### 9. Serve the Application
+```bash
 php artisan serve
-
-Your Laravel e-commerce site is now running at http://127.0.0.1:8000.
+```
+Your site will be available at: 🌐 http://127.0.0.1:8000
 
 💻 Technologies Used
-Backend: Laravel, PHP
 
-Frontend: Blade, JavaScript, CSS
-
-Database: MySQL (or other configured SQL database)
+Layer	Technologies
+Backend	Laravel, PHP
+Frontend	Blade, JavaScript, CSS
+Database	MySQL (or other SQL)
 
 📄 License
 This project is open-source and available under the MIT License.
+
+
+
