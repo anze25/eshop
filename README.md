@@ -12,6 +12,8 @@ Shopping Cart: Persistent shopping cart functionality.
 
 Database Seeding: Pre-populated with sample data for immediate testing.
 
+![Screenshot](https://github.com/anze25/eshop/blob/e1d1a64ba4aeab91654d74c9bb5ff3c12ef8e19a/Screenshot.jpg)
+
 🌐 Live Demo
 You can view a live demo of the application here:
 eshop.as-storitve.si
